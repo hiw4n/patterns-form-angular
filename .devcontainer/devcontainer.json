@@ -1,6 +1,7 @@
 {
-  // name -> Nombre descriptivo del entorno de desarrollo
+  // name -> Nombre descriptivo del entorno de desarrollo.
   "name": "Patterns Form Angular",
-  // image -> Crea el entorno usando Node.js 24 sobre Linux Debian Bookworm
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-24-bookworm"
+
+  // image -> Crea el entorno usando Node.js 24 sobre Linux Debian Bookworm.
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24-bookworm"
 }
