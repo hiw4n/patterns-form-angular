@@ -1,59 +1,51 @@
-# PatternsFormAngular
+# Patterns Form Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.1.8.
+Reusable, accessible, and configurable form patterns built with Angular.
 
-## Development server
+This repository is part of a learning and experimentation project focused on designing reusable form architectures for real-world scenarios such as checkout, billing, shipping, and country-specific data requirements.
 
-To start a local development server, run:
+## Goals
 
-```bash
-ng serve
-```
+The project aims to explore and implement:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Reusable Angular form components
+- Reactive Forms
+- Dynamic fields and validation
+- Country-specific form configuration
+- Billing and shipping scenarios
+- Individual and business customer requirements
+- Accessible form patterns
+- Responsive layouts
+- Maintainable and scalable form architecture
 
-## Code scaffolding
+## Tech Stack
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Angular 22
+- TypeScript
+- Reactive Forms
+- SCSS
+- RxJS
+- Vitest
+- ESLint
+- Prettier
+- GitHub Actions
+- GitHub Codespaces
 
-```bash
-ng generate component component-name
-```
+## Project Structure
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+This repository uses an Angular workspace containing a reusable library and a demo application.
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```text
+patterns-form-angular/
+├── .devcontainer/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── projects/
+│   ├── checkout-form/
+│   │   └── Reusable Angular form library
+│   └── demo/
+│       └── Application used to develop and test the library
+├── angular.json
+├── package.json
+└── tsconfig.json
